@@ -5,7 +5,7 @@
 int main()
 {
     int i, N, k;	
-	N = 1024 << 20;
+	N = 2 << 30;
 	
 	int *arr = (int*) malloc(N*sizeof(int));
 	int* workArr = (int*) malloc(N*sizeof(int));	
