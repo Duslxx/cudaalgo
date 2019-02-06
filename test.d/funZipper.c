@@ -1,6 +1,6 @@
-#include "stdio.h"
-#include "stdlib.h"
-#include "sort_dustin.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "protoSort.h"
 
 void zipper(int *a, int Na, int *b, int Nb, int *c)
 {

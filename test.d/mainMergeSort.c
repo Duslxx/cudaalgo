@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "sort_dustin.h"
+#include "protoSort.h"
 
 int main()
 {
@@ -13,8 +13,8 @@ int main()
     printf("\n");
 	for (i=0; i<N; i++)
     {
-	    arr[i] = int(rand() % (2*N));
-	    printf("\n");
+	    arr[i] = (int) (rand() % (2*N));
+	    printf("%d ", arr[i]);
     }
 
     printf("\n");
@@ -23,6 +23,9 @@ int main()
 	for(k=0; k<N; k++)
     {
 	    arr[k]=workArr[k];
-	    printf("%d", workArr[k]);
+	    printf("%d ", workArr[k]);
     }
+
+    printf("\n");
+    return 0;
 }
